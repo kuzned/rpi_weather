@@ -1,4 +1,4 @@
-# Getting and displaying weather information
+# Getting and displaying weather information with Python
 
 *Some Python scripts for retrieving weather data using Yahoo Weather API and then displaying it using Raspberry Pi, servo motor and LED or on HTML dashboard*
 
