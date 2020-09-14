@@ -12,7 +12,7 @@ The weather information is perhaps the best source of free data an IoT device co
 
 [Yahoo Weather API](https://developer.yahoo.com/weather) could bring to you up-to-date weather information for any location, including 10-day forecast, wind, atmosphere, astronomy conditions, and more. You can lookup weather by location (city name) or lat/long.
 
-In 2019 Yahoo changed its Weather API to use OAuth1 Authentication. So to get access to the weather data you have to register on Yahoo and get your API keys. Start [here](https://developer.yahoo.com/apps/create) to create an app. Use for the app any name you like (for example, MyWeather) and enter any Redirect URI(s), I used this one: https://example.com.
+In 2019 Yahoo changed its Weather API to use OAuth1 Authentication. So to get access to the weather data you have to register on Yahoo and get your API keys. Start [here](https://developer.yahoo.com/apps/create) to create an app. Use for the app any name you like (for example, MyWeather), leave Description and Home Page URL fields blank and enter any Redirect URI(s), I used this one: https://example.com.
 
 After you get "App ID", "Client ID (Consumer Key)", and "Client Secret (Consumer Secret)" enter these data into the the appropriate fields of the scripts attached.
 
