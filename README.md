@@ -34,4 +34,4 @@ After you get "App ID", "Client ID (Consumer Key)", and "Client Secret (Consumer
 
 ## Gratitudes
 
-The code given here is based on the example code from the book [Internet of Things Programming Projects](https://github.com/PacktPublishing/Internet-of-Things-Programming-Projects) by Colin Dow, published by Packt. The [yahoo-weather](https://github.com/M-Ahadi/yahoo_weather) Python library was developed by Mojtaba Ahadi. I would like to express my sincere gratitudes to both of them.
+The code given here is based on the example code from the book [Internet of Things Programming Projects](https://github.com/PacktPublishing/Internet-of-Things-Programming-Projects) by **Colin Dow**, published by Packt. The [yahoo-weather](https://github.com/M-Ahadi/yahoo_weather) Python library was developed by **Mojtaba Ahadi**. I would like to express my sincere gratitudes to both of them.
