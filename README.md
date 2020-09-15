@@ -18,19 +18,19 @@ After you get "App ID", "Client ID (Consumer Key)", and "Client Secret (Consumer
 
 ## The bunch of code
 
-* **CurrentWeather.py** - creates the same name class that gets the weather information for the city selected, for example, "Yekaterinburg" and show this city name, temperature, weather conditions and wind speed for the moment
+* **CurrentWeather.py** creates the same name class that gets the weather information for the city selected, for example, "Yekaterinburg" and show this city name, temperature, weather conditions and wind speed for the moment
 
-* **WeatherData.py** - revisits the code from CurrentWeather.py and adds a method to return a value from 0-100 to indicate the weather as a single number. When determining this number, the code takes into account the temperature and wind speed, with 0 being extreme winterlike conditions and 100 being very hot extreme summer conditions. Then this number will be used to control the servo in WeatherDashboardCW.py. The code also checks whether it is raining and update the LED to indicate whether or not we need an umbrella. The LED blinks in the dashboard if there is a thunderstorm, keep solid when there is rain or showers and goes off under all other conditions
+* **WeatherData.py** revisits the code from CurrentWeather.py and adds a method to return a value from 0-100 to indicate the weather as a single number. When determining this number, the code takes into account the temperature and wind speed, with 0 being extreme winterlike conditions and 100 being very hot extreme summer conditions. Then this number will be used to control the servo in WeatherDashboardCW.py. The code also checks whether it is raining and update the LED to indicate whether or not we need an umbrella. The LED blinks in the dashboard if there is a thunderstorm, keep solid when there is rain or showers and goes off under all other conditions
 
-* **WeatherDataCW.py** - makes the same as WeatherData.py, but before showing servo and LED values displays the same weather data as CurrentWeather.py
+* **WeatherDataCW.py** makes the same as WeatherData.py, but before showing servo and LED values displays the same weather data as CurrentWeather.py
 
-* **WeatherDashboard.py** - uses the data provided in the WeatherData class to control the servo and LED. Before starting using the servo is corrected in the same way as in ServoCorrection.py. So the servo shows the weather's value and the LED indicates if we need an umbrella
+* **WeatherDashboard.py** uses the data provided in the WeatherData class to control the servo and LED. Before starting using the servo is corrected in the same way as in ServoCorrection.py. So the servo shows the weather's value and the LED indicates if we need an umbrella
 
-* **WeatherDashboardCW.py** - the same as WeatherDashboard.py but additionally displays the weather data, weather value and LED value before starting to control the servo and LED
+* **WeatherDashboardCW.py** is the same as WeatherDashboard.py but additionally displays the weather data, weather value and LED value before starting to control the servo and LED
 
-* **WeatherDataForHTML.py** - modifies CurrentWeather.py a little bit and makes it more suitable for WeatherDashboardHTML.py. It adds an extra method called getTime returning the time for displaying on the web page
+* **WeatherDataForHTML.py** modifies CurrentWeather.py a little bit and makes it more suitable for WeatherDashboardHTML.py. It adds an extra method called getTime returning the time for displaying on the web page
 
-* **WeatherDashboardHTML.py** - used for generating a web weather dashboard. It gets data from WeatherDataForHTML.py and creates the webpage with the help of CherryPy web framework and Bootstrap front-end toolkit
+* **WeatherDashboardHTML.py** is used for generating a web weather dashboard. It gets data from WeatherDataForHTML.py and creates the webpage with the help of CherryPy web framework and Bootstrap front-end toolkit
 
 ## Gratitudes
 
